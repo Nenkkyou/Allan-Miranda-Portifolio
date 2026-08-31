@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-allan-miranda",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfólio pessoal de Allan Miranda — página única estática.",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "node tools/build.mjs",
+    "shots": "node tools/shots.mjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^24.9.0"
+  }
+}
