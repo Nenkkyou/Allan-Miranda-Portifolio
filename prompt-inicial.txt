@@ -1,0 +1,33 @@
+Portfólio pessoal de Allan — contexto da ideia
+
+Este texto descreve, em linhas gerais, o que uma página de portfólio representa para Allan, um profissional brasileiro que trabalha na fronteira entre inteligência artificial e desenvolvimento de software.
+
+Quem é o Allan
+
+Allan trabalha há cerca de quatro anos com engenharia de IA e há cerca de dois anos com desenvolvimento de sistemas. O fio que une os dois campos, no trabalho dele, é a vontade de construir coisas que funcionam sozinhas: agentes que tomam decisões, automações que cuidam de rotinas, produtos digitais que vivem no mundo real em vez de existirem apenas como demonstração.
+
+Os projetos que ele mais gosta de mostrar
+
+O P-Box é um agente de IA autônomo que mora permanentemente dentro de um Raspberry Pi, um computador pequeno que fica ligado o dia inteiro, todos os dias. Ele atua como um assistente pessoal de verdade: opera a casa conectada, acompanha e-mails e mensagens, cuida de agenda, finanças, lembretes e da segurança da rede. É, na prática, uma amostra viva do que significa ter uma inteligência presente, com memória, rodando de forma contínua em um hardware modesto.
+
+O Paraty GO é um projeto digital ligado à cidade de Paraty, no litoral do Rio de Janeiro. A ideia central é conectar as pessoas ao que acontece na cidade: eventos, experiências, cultura e o movimento local.
+
+A intenção do portfólio
+
+A página existe para apresentar Allan como a pessoa por trás dessas construções: alguém que entende de inteligência artificial em profundidade e, ao mesmo tempo, tem a habilidade de transformar esse entendimento em sistemas que funcionam de verdade, no dia a dia.
+
+As cores
+
+O frontend da página deve seguir uma paleta de preto e branco, que se mescla com as cores presentes na logo da Paraty GO. O resultado deve carregar o contraste sóbrio do monocromático sem abrir mão de um ponto de cor pontual que dialogue com a marca do Paraty GO.
+
+Os arquivos de imagem
+
+As três imagens que o agente pode usar estão dentro de uma subpasta chamada "imagens", ao lado deste próprio arquivo:
+
+- pbox-logo.jpg — a logo do P-Box
+- paratygo-logo.jpg — a logo da Paraty GO
+- retrato-pb.jpg — o retrato de Allan em preto e branco
+
+O espírito
+
+Ao longo dessa apresentação, transparece um jeito direto e sóbrio de se comunicar: o trabalho fala por si, e a personalidade aparece sem fazer ruído.

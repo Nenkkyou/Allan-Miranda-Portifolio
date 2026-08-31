@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="Allan Miranda, engenharia de IA e desenvolvimento de sistemas autônomos.">
+  <meta name="theme-color" content="#080808">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%23080808%27/%3E%3Ctext x=%2732%27 y=%2742%27 text-anchor=%27middle%27 font-family=%27Arial%27 font-size=%2730%27 fill=%27%2313a9c8%27%3EAM%3C/text%3E%3C/svg%3E">
+  <title>Allan Miranda | Engenharia de IA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader" aria-hidden="true"><div class="loader__count">00</div><div class="loader__line"><span></span></div></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"><span></span></div>
+
+  <header class="nav">
+    <a class="nav__brand magnetic" href="#inicio" aria-label="Início"><span>A</span><i></i><span>M</span></a>
+    <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav__links" aria-label="Navegação principal">
+      <a href="#manifesto">Visão</a><a href="#trabalhos">Trabalhos</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a>
+    </nav>
+    <span class="nav__availability"><i></i> Disponível para criar</span>
+    <span class="nav__progress" aria-hidden="true"></span>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero__orb" aria-hidden="true"><div class="orb__ring"></div><div class="orb__core"></div></div>
+      <div class="hero__meta"><span>Engenharia de IA</span><span>Desenvolvimento de sistemas</span></div>
+      <h1 class="hero__title" aria-label="Inteligência que habita o mundo real">
+        <span class="line"><span>Inteligência</span></span>
+        <span class="line line--indent"><span>que habita</span></span>
+        <span class="line"><span>o mundo <em>real.</em></span></span>
+      </h1>
+      <p class="hero__intro">Eu sou Allan. Transformo inteligência artificial em produtos autônomos, presentes e úteis, muito além de uma demonstração.</p>
+      <a class="hero__scroll" href="#manifesto"><span>Explore</span><i>↓</i></a>
+      <span class="hero__index">PORTFOLIO / 2026</span>
+    </section>
+
+    <section class="manifesto" id="manifesto">
+      <div class="section-tag"><span>01</span><span>Visão</span></div>
+      <div class="manifesto__body">
+        <p class="reveal-text">Não me interessa criar tecnologia que apenas <em>pareça</em> inteligente.</p>
+        <p class="reveal-text reveal-text--right">Construo sistemas que percebem, decidem e permanecem presentes quando a tela se apaga.</p>
+      </div>
+      <div class="manifesto__facts">
+        <div><strong>04</strong><span>anos em<br>engenharia de IA</span></div>
+        <div><strong>02</strong><span>anos criando<br>sistemas</span></div>
+        <div><strong>24/7</strong><span>produtos vivos,<br>não protótipos</span></div>
+      </div>
+    </section>
+
+    <section class="work" id="trabalhos">
+      <div class="work__head">
+        <div class="section-tag"><span>02</span><span>Trabalhos que dão orgulho</span></div>
+        <h2>Do código<br>para a <i>vida.</i></h2>
+      </div>
+
+      <article class="project project--pbox" data-project="P-BOX">
+        <div class="project__sticky">
+          <div class="project__number">01 / 02</div>
+          <div class="project__visual">
+            <div class="project__halo"></div>
+            <img src="imagens/pbox-logo.jpg" alt="Identidade visual oficial do P-Box">
+            <span class="orbit orbit--one">AUTONOMIA</span><span class="orbit orbit--two">EDGE AI</span>
+          </div>
+          <div class="project__copy">
+            <span class="project__eyebrow">AGENTE AUTÔNOMO / RASPBERRY PI</span>
+            <h3>P-Box</h3>
+            <p>Uma inteligência que vive em uma placa de 85 milímetros. Tem memória, protege a rede, acompanha a rotina e opera o mundo físico, continuamente.</p>
+            <ul><li>Agentes de IA</li><li>Edge computing</li><li>Automação</li><li>Cybersecurity</li></ul>
+          </div>
+          <div class="project__word" aria-hidden="true">PRESENTE</div>
+        </div>
+      </article>
+
+      <article class="project project--paraty" data-project="PARATY GO">
+        <div class="project__sticky">
+          <div class="project__number">02 / 02</div>
+          <div class="project__visual">
+            <div class="project__halo"></div>
+            <img src="imagens/paratygo-logo.jpg" alt="Identidade visual oficial da Paraty GO">
+            <span class="orbit orbit--one">CULTURA</span><span class="orbit orbit--two">TERRITÓRIO</span>
+          </div>
+          <div class="project__copy">
+            <span class="project__eyebrow">PLATAFORMA DIGITAL / TURISMO</span>
+            <h3>Paraty GO</h3>
+            <p>Uma ponte digital entre pessoas e a cidade de Paraty. Eventos, experiências e cultura local reunidos em um produto que entende o território.</p>
+            <ul><li>Produto digital</li><li>IA contextual</li><li>Marketplace</li><li>RAG</li></ul>
+          </div>
+          <div class="project__word" aria-hidden="true">CONEXÃO</div>
+        </div>
+      </article>
+    </section>
+
+    <section class="about" id="sobre">
+      <div class="section-tag"><span>03</span><span>Quem constrói</span></div>
+      <div class="about__grid">
+        <div class="about__portrait">
+          <div class="portrait__mask"><img src="imagens/retrato-pb.jpg" alt="Retrato em preto e branco de Allan Miranda"></div>
+          <div class="portrait__type"><span>ALLAN</span><span>MIRANDA</span></div>
+          <span class="portrait__caption">Paraty, Rio de Janeiro<br>Brasil</span>
+        </div>
+        <div class="about__copy">
+          <h2>Curiosidade<br>com <i>método.</i></h2>
+          <p>Trabalho na fronteira entre engenharia de IA e software. Meu ponto de partida é sempre uma pergunta simples: como isso pode deixar de ser promessa e começar a funcionar no cotidiano?</p>
+          <p>O resultado são produtos com memória, contexto e autonomia. Tecnologia com presença, construída para durar.</p>
+          <a class="text-link magnetic" href="#contato">Vamos construir algo <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contato">
+      <div class="contact__signal"><i></i><span>Canal aberto</span></div>
+      <p>Tem uma ideia que<br>merece existir?</p>
+      <a class="contact__cta magnetic" href="https://t.me/fantasma__zz" target="_blank" rel="noopener"><span>Vamos conversar</span><i>↗</i></a>
+      <footer><span>© 2026 Allan Miranda</span><span>Engenharia de IA + Sistemas</span><a href="#inicio">Voltar ao topo ↑</a></footer>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
